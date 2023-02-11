@@ -7,8 +7,8 @@ def metodo_gauss(matriz, vector):
     l = 0
     for j in range(0, dimension):
         k = 0
-
-        print('iter:  ', l)
+        print('')
+        print('     Columna:  ', l+1)
         for i in range(0, dimension-j):
             num1 = matriz[dimension-1-k, 0+l]
             num2 = matriz[dimension-k, 0+l]
@@ -34,7 +34,8 @@ def metodo_gauss(matriz, vector):
         l += 1
 def solucion(matriz,vector):
     C = (matriz**-1)*vector
-    print('Resultado:  ')
+    print('')
+    print('Resultado de las variables:  ')
     print((C))
 
 
