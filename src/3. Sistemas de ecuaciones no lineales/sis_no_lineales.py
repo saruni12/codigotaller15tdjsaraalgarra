@@ -25,7 +25,7 @@ def datos():
     for i in var:
         valor_inicial = float(input(f"   valor inicial de {i}="))
         valor.append(valor_inicial)
-    error = 1e-3
+    error = 1e-5
     return ecua, var, valor, Ecuaciones, error
 
 

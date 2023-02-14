@@ -96,7 +96,7 @@ def newtonR_multivariable(ecua, var, valor, Ecuaciones, emax, N=50):
             contenido.append("{0:.7f}".format(valor[i]))
         contenido.append("{0:.7f}".format(error))
         tabla.add_row(contenido)
-        
+
     # Constructor de la tabla de las derivadas parciales
 
     deriv_por_func = np.array(derivadas).T
@@ -141,10 +141,10 @@ var = ['x', 'y', 'z']
 valori = [1, 1, 1]
 Ecuaciones = 3 """
 
-ecua = ['exp(-x*y)+20*z+(10*pi-3)/3','x**2-625*y**2', '3*x-cos(y*z)-0.5', ]
+""" ecua = ['exp(-x*y)+20*z+(10*pi-3)/3','x**2-625*y**2', '3*x-cos(y*z)-0.5', ]
 var = ['x', 'y', 'z']
 valori = [1, 1, 1]
-Ecuaciones = 3
+Ecuaciones = 3 """
 
 
-newtonR_multivariable(ecua, var, valori, Ecuaciones, 1e-5)
+#newtonR_multivariable(ecua, var, valori, Ecuaciones, 1e-5)
