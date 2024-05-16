@@ -15,3 +15,4 @@ B = matrix([[14],[14],[-8],[23],[-4]])
 Metodo.elim_de_gauss.metodo_gauss(A, B)
 Metodo.elim_de_gauss.solucion(A,B) """
 
+"holisss"
